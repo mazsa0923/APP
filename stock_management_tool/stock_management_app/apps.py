@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class StaticManagementAppConfig(AppConfig):
+class StockManagementAppConfig(AppConfig):
     default_auto_field = 'django.db.models,BigAutoField'
-    name = 'static_management_app'
+    name = 'stock_management_app'
